@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Engineer | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass-card { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .gradient-text { background: linear-gradient(90deg, #0d9488, #0f766e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <nav class="fixed w-full z-50 glass-card border-b border-slate-200">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold tracking-tighter text-teal-800">PORTFOLIO.</span>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold uppercase tracking-widest">
+                <a href="#home" class="hover:text-teal-600 transition">Home</a>
+                <a href="#projects" class="hover:text-teal-600 transition">Projects</a>
+                <a href="#cv" class="hover:text-teal-600 transition">Experience</a>
+                <a href="#contact" class="text-teal-700 border-b-2 border-teal-700">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="pt-32 pb-20 px-6">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1 space-y-6 text-center md:text-left">
+                <h2 class="text-slate-500 font-semibold tracking-widest uppercase text-sm">Software Developer & NLP Engineer</h2>
+                <h1 class="text-5xl md:text-6xl font-black leading-tight">
+                    မင်္ဂလာပါ၊ ကျွန်တော် <span class="gradient-text">[သင့်အမည်]</span> ပါ။
+                </h1>
+                <p class="text-lg text-slate-600 max-w-xl leading-relaxed">
+                    မြန်မာစာ NLP (Natural Language Processing) နည်းပညာဖြင့် Digitization လုပ်ငန်းများကို အထူးပြုလုပ်ဆောင်နေသော Software Engineer တစ်ဦးဖြစ်ပါသည်။ 
+                </p>
+                <div class="flex justify-center md:justify-start gap-4 pt-4">
+                    <a href="#contact" class="bg-teal-700 text-white px-8 py-3 rounded-full font-bold hover:bg-teal-800 transition shadow-lg shadow-teal-200">Hire Me</a>
+                    <a href="#projects" class="border border-slate-300 px-8 py-3 rounded-full font-bold hover:bg-slate-100 transition">View Works</a>
+                </div>
+            </div>
+            <div class="flex-1 flex justify-center">
+                <div class="relative w-64 h-64 md:w-80 md:h-80">
+                    <div class="absolute inset-0 bg-teal-200 rounded-3xl rotate-6"></div>
+                    <img src="assets/profile.jpg" alt="Profile" class="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl transition hover:rotate-0 duration-500 border-4 border-white">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+                <div>
+                    <h2 class="text-3xl font-bold">Featured Projects</h2>
+                    <p class="text-slate-500 mt-2">လက်ရှိလုပ်ဆောင်နေသော နည်းပညာဆိုင်ရာ ပရောဂျက်များ</p>
+                </div>
+                <a href="https://github.com/yourusername" class="text-teal-700 font-bold hover:underline">See All on GitHub <i class="fa-solid fa-arrow-right ml-1"></i></a>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="group bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:border-teal-200 hover:shadow-xl transition duration-300">
+                    <div class="w-12 h-12 bg-teal-100 text-teal-700 rounded-xl flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-spell-check"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Name Check App</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">မြန်မာအမည်များကို စနစ်တကျ Mapping လုပ်ပေးနိုင်သော Python & Flask အခြေခံ Web Application တစ်ခုဖြစ်ပါသည်။</p>
+                    <div class="flex gap-2">
+                        <span class="text-[10px] font-bold px-2 py-1 bg-white border border-slate-200 rounded text-slate-500">Python</span>
+                        <span class="text-[10px] font-bold px-2 py-1 bg-white border border-slate-200 rounded text-slate-500">Flask</span>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:border-teal-200 hover:shadow-xl transition duration-300">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-700 rounded-xl flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-language"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">MRS-2025 Implementation</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">မြန်မာဘာသာစကားကို အင်္ဂလိပ်စာဖြင့် ရေးသားရာတွင် စနစ်တကျဖြစ်စေရန် MRS-2025 Standard အား အကောင်အထည်ဖော်ထားပါသည်။</p>
+                    <div class="flex gap-2">
+                        <span class="text-[10px] font-bold px-2 py-1 bg-white border border-slate-200 rounded text-slate-500">NLP</span>
+                        <span class="text-[10px] font-bold px-2 py-1 bg-white border border-slate-200 rounded text-slate-500">Linguistics</span>
+                    </div>
+                </div>
+
+                <div class="group bg-slate-50 p-8 rounded-3xl border border-slate-100 hover:border-teal-200 hover:shadow-xl transition duration-300">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-700 rounded-xl flex items-center justify-center mb-6 text-xl">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">ASR Dataset Tools</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed mb-6">အသံဖိုင်များကို စာသားအဖြစ် ပြောင်းလဲနိုင်ရန် (Speech-to-Text) အတွက် Dataset စုဆောင်းပေးသော Automation Tool ဖြစ်ပါသည်။</p>
+                    <div class="flex gap-2">
+                        <span class="text-[10px] font-bold px-2 py-1 bg-white border border-slate-200 rounded text-slate-500">Whisper AI</span>
+                        <span class="text-[10px] font-bold px-2 py-1 bg-white border border-slate-200 rounded text-slate-500">Pydub</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cv" class="py-20">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Professional Experience</h2>
+                <a href="assets/cv.pdf" class="inline-flex items-center text-teal-700 font-bold hover:underline">
+                    Download Full CV <i class="fa-solid fa-download ml-2"></i>
+                </a>
+            </div>
+
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-hover:bg-teal-700 transition shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-lg"></div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <time class="text-teal-600 font-bold text-xs uppercase italic">2025 - Present</time>
+                        <h4 class="font-bold text-lg mt-1">NLP Specialist</h4>
+                        <p class="text-slate-500 text-sm mt-2">Developing high-accuracy transliteration models for Myanmar script.</p>
+                    </div>
+                </div>
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-hover:bg-teal-700 transition shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 shadow-lg"></div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-100 shadow-sm hover:shadow-md transition">
+                        <time class="text-teal-600 font-bold text-xs uppercase italic">2023 - 2024</time>
+                        <h4 class="font-bold text-lg mt-1">Software Engineer</h4>
+                        <p class="text-slate-500 text-sm mt-2">Focusing on cross-platform app development using Flutter and Dart.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-4xl mx-auto px-6 grid md:grid-cols-2 gap-16">
+            <div>
+                <h2 class="text-4xl font-bold mb-6">Let's build something <span class="text-teal-400">great</span>.</h2>
+                <p class="text-slate-400 mb-8 leading-relaxed">
+                    ပရောဂျက်အသစ်များအတွက် ဆွေးနွေးလိုပါက သို့မဟုတ် အလုပ်ကမ်းလှမ်းလိုပါက ဤနေရာမှ တိုက်ရိုက်ဆက်သွယ်နိုင်ပါသည်။ 
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-4 text-slate-300">
+                        <i class="fa-solid fa-envelope text-teal-400"></i>
+                        <span>yourname@email.com</span>
+                    </div>
+                    <div class="flex items-center gap-4 text-slate-300">
+                        <i class="fa-solid fa-location-dot text-teal-400"></i>
+                        <span>Naypyidaw, Myanmar</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl text-slate-900 shadow-2xl">
+                <form action="https://formspree.io/f/သင့်_ID_ဒီမှာထည့်" method="POST" class="space-y-4">
+                    <div>
+                        <input type="text" name="name" placeholder="သင့်အမည်" class="w-full p-4 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-teal-500 outline-none transition" required>
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="အီးမေးလ်" class="w-full p-4 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-teal-500 outline-none transition" required>
+                    </div>
+                    <div>
+                        <textarea name="message" rows="4" placeholder="စာတိုရေးပါ..." class="w-full p-4 bg-slate-50 border-none rounded-xl focus:ring-2 focus:ring-teal-500 outline-none transition" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-teal-700 text-white font-bold py-4 rounded-xl hover:bg-teal-800 transition transform hover:scale-[1.02]">
+                        ပို့လွှတ်မည်
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-slate-400 text-xs tracking-widest bg-slate-900 border-t border-slate-800 uppercase">
+        <p>&copy; 2026 Crafted by [သင့်အမည်]. Powered by GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
